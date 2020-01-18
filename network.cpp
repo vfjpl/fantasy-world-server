@@ -1,13 +1,8 @@
 #include "network.hpp"
+#include "requesthandlerfactory.hpp"
 
 Network::Network():
-    http(),
-    response(),
-    request(),
-    socket() {}
-
-
-Poco::DynamicStruct Network::receive()
+    server(new RequestHandlerFactory(), 9001)
 {
-
+    server.start();
 }

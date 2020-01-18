@@ -4,7 +4,7 @@ int main()
 {
     Engine engine;
 
-    while(engine.run_network());
+    while(getwchar() != L'Q');
 
     return EXIT_SUCCESS;
 }

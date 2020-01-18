@@ -6,12 +6,6 @@
 class Engine
 {
     Network network;
-
-public:
-    bool run_network();
-
-private:
-    void process_network(const Poco::DynamicStruct& data);
 };
 
 #endif // ENGINE_HPP_INCLUDED
