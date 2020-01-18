@@ -38,11 +38,7 @@
 			<Add library="sfml-network" />
 			<Add library="sfml-system" />
 		</Linker>
-		<Unit filename="engine.cpp" />
-		<Unit filename="engine.hpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="network.cpp" />
-		<Unit filename="network.hpp" />
 		<Unit filename="requesthandlerfactory.cpp" />
 		<Unit filename="requesthandlerfactory.hpp" />
 		<Unit filename="websocketrequesthandler.cpp" />

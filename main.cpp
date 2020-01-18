@@ -1,11 +1,9 @@
-#include "engine.hpp"
+#include <Poco/Net/HTTPServer.h>
+#include "requesthandlerfactory.hpp"
 
 int main()
 {
-    Engine engine;
-    engine.setup();
-
-    while(getwchar() != L'Q');
+    Poco::Net::HTTPServer server(new RequestHandlerFactory(), 9001);
 
     return EXIT_SUCCESS;
 }
