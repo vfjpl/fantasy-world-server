@@ -38,11 +38,19 @@
 			<Add library="sfml-network" />
 			<Add library="sfml-system" />
 		</Linker>
+		<Unit filename="httprequesthandler.cpp" />
+		<Unit filename="httprequesthandler.hpp" />
+		<Unit filename="httprequesthandlerfactory.cpp" />
+		<Unit filename="httprequesthandlerfactory.hpp" />
+		<Unit filename="httpsrequesthandler.cpp" />
+		<Unit filename="httpsrequesthandler.hpp" />
+		<Unit filename="httpsrequesthandlerfactory.cpp" />
+		<Unit filename="httpsrequesthandlerfactory.hpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="requesthandlerfactory.cpp" />
-		<Unit filename="requesthandlerfactory.hpp" />
 		<Unit filename="websocketrequesthandler.cpp" />
 		<Unit filename="websocketrequesthandler.hpp" />
+		<Unit filename="websocketrequesthandlerfactory.cpp" />
+		<Unit filename="websocketrequesthandlerfactory.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

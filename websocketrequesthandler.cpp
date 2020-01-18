@@ -16,3 +16,12 @@ void WebSocketRequestHandler::run()
         socket.sendFrame(json.data(), json.size());
     }
 }
+
+// private
+
+std::string WebSocketRequestHandler::parse(const Poco::DynamicStruct& data)
+{
+    Poco::DynamicStruct json;
+    json.insert("code", "load_game");
+    return json.toString();
+}
