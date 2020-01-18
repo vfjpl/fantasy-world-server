@@ -3,6 +3,7 @@
 int main()
 {
     Engine engine;
+    engine.setup();
 
     while(getwchar() != L'Q');
 

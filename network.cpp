@@ -2,7 +2,10 @@
 #include "requesthandlerfactory.hpp"
 
 Network::Network():
-    server(new RequestHandlerFactory(), 9001)
+    server(new RequestHandlerFactory(), 9001) {}
+
+
+void Network::start()
 {
     server.start();
 }

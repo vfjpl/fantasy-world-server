@@ -9,6 +9,7 @@ class Network
 
 public:
     Network();
+    void start();
 };
 
 #endif // NETWORK_HPP_INCLUDED

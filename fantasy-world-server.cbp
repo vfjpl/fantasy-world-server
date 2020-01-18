@@ -45,6 +45,8 @@
 		<Unit filename="network.hpp" />
 		<Unit filename="requesthandlerfactory.cpp" />
 		<Unit filename="requesthandlerfactory.hpp" />
+		<Unit filename="websocketrequesthandler.cpp" />
+		<Unit filename="websocketrequesthandler.hpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -6,6 +6,9 @@
 class Engine
 {
     Network network;
+
+public:
+    void setup();
 };
 
 #endif // ENGINE_HPP_INCLUDED
