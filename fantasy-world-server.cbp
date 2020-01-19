@@ -34,10 +34,13 @@
 		<Linker>
 			<Add library="PocoNetSSL" />
 			<Add library="PocoNet" />
+			<Add library="PocoUtil" />
 			<Add library="PocoFoundation" />
 			<Add library="sfml-network" />
 			<Add library="sfml-system" />
 		</Linker>
+		<Unit filename="fantasyworldserver.cpp" />
+		<Unit filename="fantasyworldserver.hpp" />
 		<Unit filename="httprequesthandler.cpp" />
 		<Unit filename="httprequesthandler.hpp" />
 		<Unit filename="httprequesthandlerfactory.cpp" />
